@@ -1,0 +1,135 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+label{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #232323;
+    padding: 7px;
+    color: white;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+input{   
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+select{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#imc{
+    padding: 5px 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 13%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px black solid;
+
+}
+#imc:hover{
+    background: rgba(9,9,121,1) 13%;
+    transition: 0.6s;
+    cursor: pointer;
+
+}
+hr{
+    width: 80%;
+}
+table{
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#cadastrar{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #232323;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#cadastrar:hover{
+    cursor: pointer;
+    color: #232323;
+    background-color: white;
+    transition: 0.5s;
+}
+
+li{
+    list-style: none;
+    padding: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+th{
+    border-bottom: 1px solid black;
+    width: 14%;
+}
+.apagar{
+    width: 30px;
+}
+.editar{
+    width: 40px;
+}
+img:hover{
+    cursor: pointer;
+}
+.divImc{
+    width: 40%;
+    margin-left: 30%;
+    padding: 20px;
+    height: 40%;
+    display: none;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+#img{
+    width: 60%;
+}
+.img{
+    margin-left: 25%;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #232323;
+    padding: 7px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    padding: 7px;
+    color: #232323;
+    box-shadow: 3px 3px 3px 3px gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fechar{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #232323;
+    padding: 7px;
+    width: 80px;
+    text-align: center;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+}
+.fechar:hover{
+    background-color: white;
+    padding: 7px;
+    color: #232323;
+    box-shadow: 3px 3px 3px 3px gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.resposta{
+    display: flex;
+}
+.editarDiv{
+    display: none;
+}
